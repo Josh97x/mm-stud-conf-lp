@@ -1412,10 +1412,25 @@
 
 .home-page .venue-map {
   height: 708px;
+  width: 980px;
+  margin-right: 296px;
+  margin-top: 77px;
+  object-fit: cover;
+}
+
+/* .home-page .venue-map-div {
+  background-color: black;
+  height: 650px;
   margin-right: 296px;
   margin-top: 77px;
   object-fit: cover;
   width: 980px;
+} */
+
+.home-page .venue-map:hover {
+  opacity: 0.5;
+  filter: brightness(75%);
+  transition: 0.3s ease;
 }
 
 .home-page .group-281 {
