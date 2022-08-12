@@ -140,13 +140,20 @@
   font-family: var(--font-family-muli-bold);
   font-size: var(--font-size-xxxxl);
   font-weight: 700;
-  left: 0;
   letter-spacing: 0;
   line-height: 40px;
-  position: absolute;
   text-align: right;
   top: 0;
+  left: 0;
+  margin-bottom: 20px;
   width: 1222px;
+  position: absolute;
+}
+
+.home-page .span0-0 {
+  font-family: var(--font-family-muli-light);
+  font-size: 30px;
+  margin: 0px 0px 0px 40px;
 }
 
 .home-page .elevate-your-future {
@@ -156,7 +163,7 @@
   line-height: 30px;
   position: absolute;
   text-align: right;
-  top: 60px;
+  top: 100px;
   width: 1155px;
 }
 
