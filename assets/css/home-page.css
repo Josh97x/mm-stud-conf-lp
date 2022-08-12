@@ -931,11 +931,12 @@
 
 .home-page .line-1 {
   height: 1591px;
+  /* height: 1500px; */
   left: 68px;
   object-fit: cover;
   position: absolute;
   top: 130px;
-  width: 2px;
+  width: 4px;
 }
 
 .home-page .overlap-group14 {
@@ -947,7 +948,7 @@
 }
 
 .home-page .line-2 {
-  height: 2px;
+  height: 4px;
   left: 0;
   object-fit: cover;
   position: absolute;
