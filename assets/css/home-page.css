@@ -267,14 +267,18 @@
 }
 
 .home-page .navigation-buttons {
-  background-image: url(../img/why-attend@1x.png);
-  background-position: 50% 50%;
-  background-size: cover;
+  color: var(--white);
+  font-family: var(--font-family-muli-light);
+  font-size: 30px;
   height: 36px;
-  left: 651px;
-  position: absolute;
-  top: 1501px;
   width: 185px;
+  left: 651px;
+  top: 1501px;
+  position: absolute;
+}
+
+.home-page .navigation-buttons:hover {
+  color: #231f20;
 }
 
 .home-page .navigation-buttons-1 {
@@ -931,7 +935,6 @@
 
 .home-page .line-1 {
   height: 1591px;
-  /* height: 1500px; */
   left: 68px;
   object-fit: cover;
   position: absolute;
