@@ -269,7 +269,7 @@
 .home-page .navigation-buttons {
   color: var(--white);
   font-family: var(--font-family-muli-light);
-  font-size: 30px;
+  font-size: 31px;
   height: 36px;
   width: 185px;
   left: 651px;
@@ -281,48 +281,63 @@
   color: #231f20;
 }
 
-.home-page .navigation-buttons-1 {
-  background-image: url(../img/why-attend-1@1x.png);
-  background-position: 50% 50%;
-  background-size: cover;
+.home-page .navigation-buttons-4 {
+  color: var(--white);
+  font-family: var(--font-family-muli-light);
+  font-size: 31px;
   height: 36px;
-  left: 1741px;
-  position: absolute;
-  top: 1501px;
   width: 185px;
+  left: 962px;
+  top: 1501px;
+  position: absolute;
 }
 
-.home-page .navigation-buttons-2 {
-  background-image: url(../img/why-attend-2@1x.png);
-  background-position: 50% 50%;
-  background-size: cover;
-  height: 36px;
-  left: 1492px;
-  position: absolute;
-  top: 1501px;
-  width: 185px;
+.home-page .navigation-buttons-4:hover {
+  color: #231f20;
 }
 
 .home-page .navigation-buttons-3 {
-  background-image: url(../img/why-attend-3@1x.png);
-  background-position: 50% 50%;
-  background-size: cover;
+  color: var(--white);
+  font-family: var(--font-family-muli-light);
+  font-size: 31px;
   height: 36px;
-  left: 1227px;
-  position: absolute;
-  top: 1501px;
   width: 185px;
+  left: 1227px;
+  top: 1501px;
+  position: absolute;
 }
 
-.home-page .navigation-buttons-4 {
-  background-image: url(../img/why-attend-4@1x.png);
-  background-position: 50% 50%;
-  background-size: cover;
+.home-page .navigation-buttons-3:hover {
+  color: #231f20;
+}
+
+.home-page .navigation-buttons-2 {
+  color: var(--white);
+  font-family: var(--font-family-muli-light);
+  font-size: 31px;
   height: 36px;
-  left: 962px;
-  position: absolute;
-  top: 1501px;
   width: 185px;
+  left: 1492px;
+  top: 1501px;
+  position: absolute;
+}
+
+.home-page .navigation-buttons-2:hover {
+  color: #231f20;
+}
+
+.home-page .navigation-buttons-1 {
+  color: var(--white);
+  font-family: var(--font-family-muli-light);
+  font-size: 31px;
+  height: 36px;
+  width: 185px;
+  left: 1741px;
+  top: 1501px;
+  position: absolute;
+}
+.home-page .navigation-buttons-1:hover {
+  color: #231f20;
 }
 
 .home-page .group-448 {
