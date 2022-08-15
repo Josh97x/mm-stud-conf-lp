@@ -1090,13 +1090,13 @@
   background-color: #ba2e27;
   border-radius: 58px;
   display: flex;
-  height: 115px;
+  height: 120px;
   justify-content: flex-end;
-  left: 20px;
-  min-width: 100px;
-  padding: 8px;
+  left: 15px;
+  min-width: 115px;
+  padding: 10px;
   position: absolute;
-  top: 420px;
+  top: 415px;
 }
 
 .home-page .group-393 {
@@ -1231,12 +1231,12 @@
 }
 
 .home-page .number-3 {
-  left: 52px;
+  left: 50px;
   font-size: 42px;
   letter-spacing: 0;
   line-height: 38.4px;
   position: absolute;
-  top: 455px;
+  top: 453px;
   white-space: nowrap;
   width: 46px;
 }
