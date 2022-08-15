@@ -1087,7 +1087,7 @@
 
 .home-page .group-391 {
   align-items: flex-end;
-  background-color: var(--cinnabar);
+  background-color: #ba2e27;
   border-radius: 58px;
   display: flex;
   height: 115px;
@@ -1143,16 +1143,16 @@
 
 .home-page .group-390 {
   align-items: flex-end;
-  background-color: var(--cinnabar);
-  border-radius: 68px;
+  background-color: #ba2e27;
+  border-radius: 58px;
   display: flex;
-  height: 136px;
+  height: 115px;
   justify-content: flex-end;
-  left: 0;
-  min-width: 136px;
-  padding: 10px;
+  left: 20px;
+  min-width: 100px;
+  padding: 8px;
   position: absolute;
-  top: 645px;
+  top: 600px;
 }
 
 .home-page .group-392 {
@@ -1253,12 +1253,12 @@
 }
 
 .home-page .number-5 {
-  left: 44px;
+  left: 52px;
   font-size: 42px;
   letter-spacing: 0;
   line-height: 38.4px;
   position: absolute;
-  top: 690px;
+  top: 634px;
   white-space: nowrap;
   width: 41px;
 }
