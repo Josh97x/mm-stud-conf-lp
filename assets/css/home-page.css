@@ -1171,30 +1171,30 @@
 
 .home-page .group-394 {
   align-items: flex-end;
-  background-color: var(--cinnabar);
-  border-radius: 68px;
+  background-color: #5e1c1b;
+  border-radius: 58px;
   display: flex;
-  height: 136px;
+  height: 120px;
   justify-content: flex-end;
-  left: 0;
-  min-width: 136px;
+  left: 15px;
+  min-width: 115px;
   padding: 10px;
   position: absolute;
-  top: 1505px;
+  top: 1300px;
 }
 
 .home-page .group-396 {
   align-items: flex-end;
-  background-color: var(--cinnabar);
-  border-radius: 68px;
+  background-color: #5e1c1b;
+  border-radius: 58px;
   display: flex;
-  height: 136px;
+  height: 120px;
   justify-content: flex-end;
-  left: 0;
-  min-width: 136px;
+  left: 15px;
+  min-width: 115px;
   padding: 10px;
   position: absolute;
-  top: 1720px;
+  top: 1480px;
 }
 
 .home-page .number {
@@ -1264,12 +1264,12 @@
 }
 
 .home-page .number-6 {
-  left: 44px;
+  left: 50px;
   font-size: 42px;
   letter-spacing: 0;
   line-height: 38.4px;
   position: absolute;
-  top: 1550px;
+  top: 1338px;
   white-space: nowrap;
   width: 41px;
 }
@@ -1286,12 +1286,12 @@
 }
 
 .home-page .number-8 {
-  left: 44px;
+  left: 50px;
   font-size: 42px;
   letter-spacing: 0;
   line-height: 38.4px;
   position: absolute;
-  top: 1765px;
+  top: 1518px;
   white-space: nowrap;
   width: 41px;
 }
