@@ -1088,15 +1088,15 @@
 .home-page .group-391 {
   align-items: flex-end;
   background-color: var(--cinnabar);
-  border-radius: 68px;
+  border-radius: 58px;
   display: flex;
-  height: 136px;
+  height: 115px;
   justify-content: flex-end;
-  left: 0;
-  min-width: 136px;
-  padding: 10px;
+  left: 20px;
+  min-width: 100px;
+  padding: 8px;
   position: absolute;
-  top: 430px;
+  top: 420px;
 }
 
 .home-page .group-393 {
@@ -1231,12 +1231,12 @@
 }
 
 .home-page .number-3 {
-  left: 44px;
+  left: 52px;
   font-size: 42px;
   letter-spacing: 0;
   line-height: 38.4px;
   position: absolute;
-  top: 475px;
+  top: 455px;
   white-space: nowrap;
   width: 46px;
 }
