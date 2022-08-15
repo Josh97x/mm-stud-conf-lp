@@ -216,7 +216,7 @@
 
 .home-page .rectangle-142 {
   background-color: var(--gallery);
-  height: 556px;
+  height: 700px;
   left: 335px;
   position: absolute;
   top: 2004px;
@@ -258,6 +258,11 @@
 
 .home-page .span0-1 {
   font-weight: 300;
+}
+
+.home-page .attend-list-items {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .home-page .span1-1 {
@@ -1191,7 +1196,8 @@
 }
 
 .home-page .number {
-  left: 49px;
+  left: 44px;
+  font-size: 42px;
   letter-spacing: 0;
   line-height: 38.4px;
   position: absolute;
@@ -1201,7 +1207,8 @@
 }
 
 .home-page .number-1 {
-  left: 49px;
+  left: 44px;
+  font-size: 42px;
   letter-spacing: 0;
   line-height: 38.4px;
   position: absolute;
@@ -1211,7 +1218,8 @@
 }
 
 .home-page .number-2 {
-  left: 49px;
+  left: 44px;
+  font-size: 42px;
   letter-spacing: 0;
   line-height: 38.4px;
   position: absolute;
@@ -1221,7 +1229,8 @@
 }
 
 .home-page .number-3 {
-  left: 46px;
+  left: 44px;
+  font-size: 42px;
   letter-spacing: 0;
   line-height: 38.4px;
   position: absolute;
@@ -1231,7 +1240,8 @@
 }
 
 .home-page .number-4 {
-  left: 47px;
+  left: 44px;
+  font-size: 42px;
   letter-spacing: 0;
   line-height: 38.4px;
   position: absolute;
@@ -1241,7 +1251,8 @@
 }
 
 .home-page .number-5 {
-  left: 49px;
+  left: 44px;
+  font-size: 42px;
   letter-spacing: 0;
   line-height: 38.4px;
   position: absolute;
@@ -1251,7 +1262,8 @@
 }
 
 .home-page .number-6 {
-  left: 49px;
+  left: 44px;
+  font-size: 42px;
   letter-spacing: 0;
   line-height: 38.4px;
   position: absolute;
@@ -1261,7 +1273,8 @@
 }
 
 .home-page .number-7 {
-  left: 48px;
+  left: 44px;
+  font-size: 42px;
   letter-spacing: 0;
   line-height: 38.4px;
   position: absolute;
@@ -1271,7 +1284,8 @@
 }
 
 .home-page .number-8 {
-  left: 48px;
+  left: 44px;
+  font-size: 42px;
   letter-spacing: 0;
   line-height: 38.4px;
   position: absolute;
