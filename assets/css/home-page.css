@@ -953,8 +953,8 @@
 }
 
 .home-page .line-1 {
-  height: 1591px;
-  left: 68px;
+  height: 1360px;
+  left: 74px;
   object-fit: cover;
   position: absolute;
   top: 130px;
@@ -965,7 +965,7 @@
   height: 10px;
   left: 134px;
   position: absolute;
-  top: 63px;
+  top: 130px;
   width: 62px;
 }
 
@@ -1079,9 +1079,10 @@
 
 .home-page .ellipse-2 {
   background-color: var(--white);
+  border: 1px solid black;
   border-radius: 57px;
-  height: 114px;
-  width: 114px;
+  height: 98px;
+  width: 98px;
 }
 
 .home-page .group-391 {
@@ -1314,6 +1315,7 @@
   letter-spacing: 0;
   line-height: 48px;
   min-height: 62px;
+  margin-top: 100px;
   width: 832px;
 }
 
@@ -1334,7 +1336,7 @@
   letter-spacing: 0;
   line-height: 48px;
   margin-left: 13.26px;
-  margin-top: 153px;
+  margin-top: 115px;
   min-height: 62px;
   width: 832px;
 }
@@ -1347,7 +1349,7 @@
   letter-spacing: 0;
   line-height: 48px;
   margin-left: 13.26px;
-  margin-top: 153px;
+  margin-top: 115px;
   min-height: 62px;
   width: 832px;
 }
@@ -1360,7 +1362,7 @@
   letter-spacing: 0;
   line-height: 48px;
   margin-left: 13.26px;
-  margin-top: 153px;
+  margin-top: 115px;
   min-height: 62px;
   width: 832px;
 }
@@ -1373,7 +1375,7 @@
   letter-spacing: 0;
   line-height: 48px;
   margin-left: 13.26px;
-  margin-top: 153px;
+  margin-top: 115px;
   min-height: 62px;
   width: 832px;
 }
@@ -1382,7 +1384,7 @@
   align-self: flex-end;
   letter-spacing: 0;
   line-height: 48px;
-  margin-top: 153px;
+  margin-top: 115px;
   min-height: 62px;
   width: 1047px;
 }
@@ -1391,7 +1393,7 @@
   letter-spacing: 0;
   line-height: 48px;
   margin-left: 13.26px;
-  margin-top: 153px;
+  margin-top: 115px;
   min-height: 62px;
   width: 832px;
 }
