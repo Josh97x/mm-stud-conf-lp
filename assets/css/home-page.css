@@ -1158,15 +1158,15 @@
 .home-page .group-392 {
   align-items: flex-end;
   background-color: var(--cinnabar);
-  border-radius: 68px;
+  border-radius: 58px;
   display: flex;
-  height: 136px;
+  height: 120px;
   justify-content: flex-end;
-  left: 0;
-  min-width: 136px;
+  left: 15px;
+  min-width: 115px;
   padding: 10px;
   position: absolute;
-  top: 1075px;
+  top: 947px;
 }
 
 .home-page .group-394 {
@@ -1225,7 +1225,7 @@
   letter-spacing: 0;
   line-height: 38.4px;
   position: absolute;
-  top: 1140px;
+  top: 985px;
   white-space: nowrap;
   width: 41px;
 }
