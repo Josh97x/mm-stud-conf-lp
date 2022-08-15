@@ -1055,15 +1055,15 @@
 .home-page .group-388 {
   align-items: flex-end;
   background-color: var(--cinnabar);
-  border-radius: 68px;
+  border-radius: 58px;
   display: flex;
-  height: 136px;
+  height: 115px;
   justify-content: flex-end;
-  left: 0;
-  min-width: 136px;
-  padding: 10px;
+  left: 18px;
+  min-width: 100px;
+  padding: 8px;
   position: absolute;
-  top: 0;
+  top: 60px;
 }
 
 .home-page .overlap-group-1 {
@@ -1198,12 +1198,12 @@
 }
 
 .home-page .number {
-  left: 44px;
+  left: 50px;
   font-size: 42px;
   letter-spacing: 0;
   line-height: 38.4px;
   position: absolute;
-  top: 45px;
+  top: 95px;
   white-space: nowrap;
   width: 41px;
 }
