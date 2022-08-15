@@ -1115,16 +1115,16 @@
 
 .home-page .group-395 {
   align-items: flex-end;
-  background-color: var(--cinnabar);
-  border-radius: 68px;
+  background-color: #5e1c1b;
+  border-radius: 58px;
   display: flex;
-  height: 136px;
+  height: 120px;
   justify-content: flex-end;
-  left: 0;
-  min-width: 136px;
+  left: 15px;
+  min-width: 115px;
   padding: 10px;
   position: absolute;
-  top: 1290px;
+  top: 1125px;
 }
 
 .home-page .group-389 {
@@ -1157,7 +1157,7 @@
 
 .home-page .group-392 {
   align-items: flex-end;
-  background-color: var(--cinnabar);
+  background-color: #992620;
   border-radius: 58px;
   display: flex;
   height: 120px;
@@ -1242,12 +1242,12 @@
 }
 
 .home-page .number-4 {
-  left: 44px;
+  left: 50px;
   font-size: 42px;
   letter-spacing: 0;
   line-height: 38.4px;
   position: absolute;
-  top: 1335px;
+  top: 1162px;
   white-space: nowrap;
   width: 46px;
 }
