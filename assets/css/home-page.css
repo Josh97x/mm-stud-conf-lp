@@ -939,11 +939,11 @@
   align-items: flex-start;
   background-color: var(--gallery);
   display: flex;
-  height: 2165px;
+  height: 1800px;
   justify-content: flex-end;
   margin-top: 94px;
   min-width: 1940px;
-  padding: 133.6px 123.9px;
+  padding: 100px 100px;
 }
 
 .home-page .overlap-group34 {
@@ -1069,11 +1069,12 @@
 .home-page .overlap-group-1 {
   align-items: flex-start;
   background-color: var(--black);
-  border-radius: 57.5px;
+  border: 1px solid black;
+  border-radius: 57px;
   display: flex;
-  filter: blur(7.21px);
-  height: 115px;
-  min-width: 115px;
+  /* filter: blur(7.21px); */
+  height: 100px;
+  min-width: 100px;
 }
 
 .home-page .ellipse-2 {
@@ -1301,7 +1302,7 @@
   flex-direction: column;
   margin-bottom: 39.88px;
   margin-left: 18px;
-  min-height: 1782px;
+  min-height: 1000px;
   width: 1060px;
 }
 
