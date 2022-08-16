@@ -9,6 +9,42 @@
   width: 1920px;
 }
 
+#clockdiv {
+  background-color: var(--gallery);
+  color: #231f20;
+  opacity: 0.8;
+  display: inline-block;
+  position: absolute;
+  min-height: 200px;
+  top: 600px;
+  width: 80%;
+  left: -320px;
+  font-family: var(--font-family-muli);
+}
+
+#clockdiv > div {
+  display: inline-block;
+  padding: 10px 5px 5px 10px;
+  border-radius: 3px;
+  font-size: 120px;
+  margin-left: 15px;
+}
+
+#clockdiv div > span {
+  display: inline-block;
+  padding: 15px;
+  border-radius: 3px;
+  margin-left: 15px;
+  flex-wrap: nowrap;
+  font-size: 115px;
+}
+
+.smalltext {
+  color: #231f20;
+  font-size: 24px;
+  text-align: center;
+}
+
 .home-page .overlap-group27 {
   height: 2725px;
   margin-left: -335.21px;
