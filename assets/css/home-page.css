@@ -1,5 +1,4 @@
 /* screen - home-page */
-
 .home-page {
   align-items: flex-start;
   background-color: var(--white);
@@ -939,17 +938,23 @@
   align-items: flex-start;
   background-color: var(--gallery);
   display: flex;
-  height: 1800px;
+  /* height: 1800px; */
+  height: 2000px;
   justify-content: flex-end;
-  margin-top: 94px;
+  /* margin-top: 94px; */
+  margin-top: 200px;
   min-width: 1940px;
-  padding: 100px 100px;
+  padding: 95px 95px;
 }
 
 .home-page .overlap-group34 {
-  height: 1856px;
-  position: relative;
+  /* height: 1856px; */
+  height: 2000px;
+  /* position: relative; */
+  position: absolute;
   width: 198px;
+  left: 580px;
+  top: 5140px;
 }
 
 .home-page .line-1 {
@@ -1304,7 +1309,7 @@
   margin-bottom: 39.88px;
   margin-left: 18px;
   min-height: 1000px;
-  width: 1060px;
+  width: 1040px;
 }
 
 .home-page .x830-am-breakfast {
@@ -1790,10 +1795,11 @@
   align-items: flex-start;
   background-color: var(--black-2);
   display: flex;
-  height: 553px;
+  height: 750px;
   justify-content: flex-end;
   min-width: 1972px;
   padding: 98px 25.9px;
+  margin-top: auto;
 }
 
 .home-page .flex-col-3 {
@@ -1802,6 +1808,7 @@
   flex-direction: column;
   min-height: 341px;
   width: 1186px;
+  margin-top: 100px;
 }
 
 .home-page .title {
