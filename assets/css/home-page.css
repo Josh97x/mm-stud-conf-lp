@@ -1113,7 +1113,6 @@
   border: 1px solid black;
   border-radius: 57px;
   display: flex;
-  /* filter: blur(7.21px); */
   height: 100px;
   min-width: 100px;
 }
@@ -1475,15 +1474,6 @@
   margin-top: 50px;
   object-fit: cover;
 }
-
-/* .home-page .venue-map-div {
-  background-color: black;
-  height: 650px;
-  margin-right: 296px;
-  margin-top: 77px;
-  object-fit: cover;
-  width: 980px;
-} */
 
 .home-page .venue-map:hover {
   opacity: 0.5;
@@ -1892,8 +1882,6 @@
   margin-left: 30px;
   margin-right: 30px;
   margin-top: 68px;
-  /* object-fit: cover; */
-  /* justify-content: space-around; */
 }
 
 .home-page .group-144 {
@@ -1907,5 +1895,4 @@
 
 .home-page .social-icons {
   display: flex;
-  /* justify-content: space-evenly; */
 }
