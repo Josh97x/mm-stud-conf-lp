@@ -6,10 +6,6 @@
 
 A landing page for the Mastermind Student Confrence.
 
-## Usage
-
-N/A
-
 ## Contributing
 
 Pull requests are welcome.
