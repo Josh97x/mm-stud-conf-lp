@@ -11,8 +11,8 @@
   /* height: max-content; */
   /* width: max-content; */
   overflow: hidden;
-  /* width: 1920px; */
-  width: 100%;
+  width: 1920px;
+  /* width: 100%; */
 }
 
 #clockdiv {
@@ -65,7 +65,7 @@
   left: 317px;
   position: absolute;
   top: 1416px;
-  width: 1956px;
+  width: 100%;
 }
 
 .group-6 {
@@ -84,11 +84,12 @@
 }
 
 .group-4 {
-  flex: 1;
-  height: 1137.7px;
-  margin-left: 315.7px;
-  margin-right: 257.2px;
-  margin-top: 281.2px;
+  width: 100%;
+  /* flex: 1; */
+  height: 1420px;
+  /* margin-left: 315.7px;
+  margin-right: 257.2px; */
+  /* margin-top: 300px; */
   object-fit: cover;
 }
 
@@ -261,7 +262,7 @@
   left: 335px;
   position: absolute;
   top: 2004px;
-  width: 1919px;
+  width: 100%;
 }
 
 .group-221 {
@@ -625,6 +626,7 @@
 .creative-director-neighborcom {
   color: var(--mountain-mist);
   flex: 1;
+  font-family: var(--font-family-muli-light);
   font-weight: 300;
   font-size: 29px;
   letter-spacing: -0.5px;
@@ -721,10 +723,10 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-left: -25.89px;
+  /* margin-left: -25.89px; */
   margin-top: 175px;
   min-height: 7656px;
-  width: 1972px;
+  width: 100%;
 }
 
 .group-container-1 {
@@ -864,6 +866,7 @@
 .position-company {
   color: var(--mountain-mist);
   flex: 1;
+  font-family: var(--font-family-muli-light);
   font-weight: 300;
   font-size: 28px;
   height: 40px;
@@ -877,7 +880,7 @@
   left: 61px;
   object-fit: cover;
   position: absolute;
-  top: 90px;
+  top: 92px;
   width: 396px;
 }
 
@@ -886,7 +889,7 @@
   left: 0;
   object-fit: cover;
   position: absolute;
-  top: 132px;
+  top: 136px;
   width: 44px;
 }
 
@@ -986,6 +989,7 @@
   /* margin-top: 94px; */
   margin-top: 200px;
   min-width: 1940px;
+  /* width: 100%; */
   padding: 95px 95px;
 }
 
