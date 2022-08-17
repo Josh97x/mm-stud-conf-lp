@@ -984,24 +984,18 @@
   align-items: flex-start;
   background-color: var(--gallery);
   display: flex;
-  /* height: 1800px; */
   height: 2000px;
   justify-content: flex-end;
-  /* margin-top: 94px; */
   margin-top: 200px;
-  min-width: 1940px;
-  /* width: 100%; */
+  min-width: 100%;
+  width: 100%;
   padding: 95px 95px;
 }
 
 .overlap-group34 {
-  /* height: 1856px; */
-  height: 2000px;
-  /* position: relative; */
   position: absolute;
-  /* width: 100%; */
-  left: 480px;
-  top: 5140px;
+  margin-right: 1260px;
+  margin-top: 120px;
 }
 
 .line-1 {
@@ -1352,10 +1346,6 @@
   align-self: center;
   display: flex;
   flex-direction: column;
-  margin-bottom: 39.88px;
-  margin-left: 18px;
-  min-height: 1000px;
-  width: 1040px;
 }
 
 .x830-am-breakfast {
