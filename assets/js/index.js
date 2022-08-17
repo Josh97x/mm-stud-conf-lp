@@ -15,4 +15,14 @@ let timeInterval = setInterval(function () {
   let hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   let minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
   let seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
-});
+
+  daysSpan.innerHTML = days;
+  hoursSpan.innerHTML = hours;
+  minutesSpan.innerHTML = minutes;
+  secondsSpan.innerHTML = seconds;
+
+  if (timeLeft < 0) {
+    clearInterval(timeInterval);
+    clock.innerHTML = "EXPIRED";
+  }
+}, 1000);
