@@ -5,3 +5,9 @@ let daysSpan = clock.querySelector(".days");
 let hoursSpan = clock.querySelector(".hours");
 let minutesSpan = clock.querySelector(".minutes");
 let secondsSpan = clock.querySelector(".seconds");
+
+let timeInterval = setInterval(function () {
+  let currentTime = new Date().getTime();
+
+  let timeLeft = countdownDate - currentTime;
+});
