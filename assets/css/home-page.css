@@ -628,7 +628,7 @@
   flex: 1;
   font-family: var(--font-family-muli-light);
   font-weight: 300;
-  font-size: 29px;
+  font-size: 28px;
   letter-spacing: -0.5px;
   height: 30px;
   line-height: 30px;
@@ -727,6 +727,7 @@
   margin-top: 175px;
   min-height: 7656px;
   width: 100%;
+  /* min-width: 1940px; */
 }
 
 .group-container-1 {
@@ -998,8 +999,8 @@
   height: 2000px;
   /* position: relative; */
   position: absolute;
-  width: 198px;
-  left: 580px;
+  /* width: 100%; */
+  left: 480px;
   top: 5140px;
 }
 
