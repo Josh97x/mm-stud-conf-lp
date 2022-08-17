@@ -18,11 +18,11 @@
 #clockdiv {
   background-color: var(--gallery);
   color: #231f20;
-  opacity: 0.8;
+  opacity: 0.9;
   display: inline-block;
   position: absolute;
   min-height: 200px;
-  top: 600px;
+  top: 592px;
   width: 70%;
   left: -320px;
   font-family: var(--font-family-muli);
@@ -37,10 +37,8 @@
 }
 
 #clockdiv div > span {
-  display: inline-block;
-  padding: 15px;
-  border-radius: 3px;
-  margin-left: 15px;
+  padding: 10px 0px 15px 0px;
+  margin-left: 40px;
   flex-wrap: nowrap;
   font-size: 115px;
 }
@@ -49,6 +47,7 @@
   color: #231f20;
   font-size: 24px;
   text-align: center;
+  margin-left: 40px;
 }
 
 .overlap-group27 {
