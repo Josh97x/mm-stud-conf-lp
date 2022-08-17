@@ -22,10 +22,10 @@ let timeInterval = setInterval(function () {
   let seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
   // append those times to the span elements in the clock div
-  daysSpan.innerHTML = days;
-  hoursSpan.innerHTML = hours;
-  minutesSpan.innerHTML = minutes;
-  secondsSpan.innerHTML = seconds;
+  daysSpan.innerHTML = ("0" + days).slice(-2);
+  hoursSpan.innerHTML = ("0" + hours).slice(-2);
+  minutesSpan.innerHTML = ("0" + minutes).slice(-2);
+  secondsSpan.innerHTML = ("0" + seconds).slice(-2);
 
   // if timer reaches '0' display text to page
   if (timeLeft < 0) {
