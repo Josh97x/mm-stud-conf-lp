@@ -1425,13 +1425,14 @@
   width: 832px;
 }
 
-.rectangle-193 {
-  align-self: flex-start;
-  background-color: var(--cinnabar);
-  height: 7px;
-  margin-left: 347.89px;
-  margin-top: 184px;
-  width: 100px;
+.venue-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 125px;
+  justify-content: left;
+  width: 900px;
+  margin-top: 200px;
+  margin-right: 370px;
 }
 
 .venue {
@@ -1439,7 +1440,7 @@
   font-weight: 900;
   line-height: 65px;
   margin-right: 335px;
-  margin-top: 37px;
+  margin-top: 35px;
   min-height: 83px;
   width: 941px;
 }
