@@ -378,7 +378,7 @@
   color: #231f20;
 }
 
-.group-448 {
+.speakers-wrapper {
   display: flex;
   flex-direction: column;
   height: 125px;
@@ -943,7 +943,7 @@
   width: 405px;
 }
 
-.group-280 {
+.agenda-wrapper {
   display: flex;
   flex-direction: column;
   height: 125px;
@@ -1426,6 +1426,7 @@
   width: 832px;
 }
 
+/* STYLE FOR VENUE SECTION*/
 .venue-wrapper {
   display: flex;
   flex-direction: column;
@@ -1470,7 +1471,7 @@
   transition: 0.3s ease;
 }
 
-.group-281 {
+.faqs-wrapper {
   display: flex;
   flex-direction: column;
   height: 125px;
@@ -1873,9 +1874,3 @@
 .social-icons {
   display: flex;
 }
-
-/* @media screen and (max-width: 1440px) {
-  body {
-    display: flex;
-  }
-} */
