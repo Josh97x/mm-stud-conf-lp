@@ -953,7 +953,8 @@
   width: 941px;
 }
 
-.agenda {
+.agenda,
+.fa-qs {
   color: var(--cinnabar);
   flex: 1;
   font-weight: 900;
@@ -1470,25 +1471,13 @@
 }
 
 .group-281 {
-  align-self: flex-end;
   display: flex;
   flex-direction: column;
   height: 125px;
   justify-content: space-between;
-  margin-right: 171.89px;
-  margin-top: 232px;
+  margin-left: 680px;
+  margin-top: 300px;
   width: 941px;
-}
-
-.fa-qs {
-  color: var(--cinnabar);
-  flex: 1;
-  font-weight: 900;
-  height: 83px;
-  line-height: 65px;
-  margin-bottom: -2px;
-  margin-right: -2px;
-  max-height: 83px;
 }
 
 .flex-row {
