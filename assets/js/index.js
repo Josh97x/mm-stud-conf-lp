@@ -1,18 +1,18 @@
-// create date for countdown timer
+// date for countdown timer
 const countdownDate = new Date("September 16, 2022 08:30:00").getTime();
 
-// create variables to hold each span element and clockdiv container
+// variables to hold each span element and clockdiv container
 let clock = document.getElementById("clockdiv");
 let daysSpan = clock.querySelector(".days");
 let hoursSpan = clock.querySelector(".hours");
 let minutesSpan = clock.querySelector(".minutes");
 let secondsSpan = clock.querySelector(".seconds");
 
-// create function for timer using setInterval and create new instance of current time
+// function for timer using setInterval and create new instance of current time
 let timeInterval = setInterval(function () {
   let currentTime = new Date().getTime();
 
-  // create var to store the remainder of the current time subtracting the time left
+  // logic to store the remainder of the current time and time left
   let timeLeft = countdownDate - currentTime;
 
   // logic for calculating time for days, hours, minutes & seconds
@@ -21,7 +21,7 @@ let timeInterval = setInterval(function () {
   let minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
   let seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
 
-  // append those times to the span elements in the clock div
+  // logic for appending times to the span elements in the clock div
   daysSpan.innerHTML = ("0" + days).slice(-2);
   hoursSpan.innerHTML = ("0" + hours).slice(-2);
   minutesSpan.innerHTML = ("0" + minutes).slice(-2);
