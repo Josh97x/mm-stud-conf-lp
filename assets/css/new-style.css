@@ -1,3 +1,187 @@
 body {
   background-color: #ffffff;
 }
+
+.container-fluid {
+  padding: 0;
+}
+
+.col-2 {
+  padding: 0;
+}
+
+#lp-container,
+#hero-section {
+  padding: 0;
+}
+
+#bg-img {
+  background-size: cover;
+}
+
+#nav-menu {
+  background-color: #e53d2e;
+}
+
+#nav-row {
+  height: 180px;
+}
+
+#nav-logo {
+  height: 100px;
+  width: 110px;
+}
+
+#why-attend-nav,
+#speakers-nav,
+#agenda-nav,
+#venue-nav,
+#faqs-nav {
+  color: #ffffff;
+  font-size: 24px;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+#signup-btn-nav {
+  border-radius: 0%;
+  font-size: 24px;
+  flex-wrap: nowrap;
+  width: 130px;
+}
+
+#whyAttend,
+#speakers,
+#agenda,
+#venue,
+#faqs,
+#footer {
+  padding: 0;
+}
+
+#faqs-header-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.faq-horizontal-bar {
+  justify-content: center;
+  background-color: #e53d2e;
+  height: 6px;
+  width: 80px;
+  margin-right: 50px;
+}
+
+.faq-header {
+  font-family: var(--font-family-muli-black);
+  color: #e53d2e;
+  font-weight: 600;
+  font-size: 46px;
+  margin-top: 15px;
+}
+
+.faqs-flex-row {
+  align-items: flex-start;
+  background-color: var(--gallery);
+  display: flex;
+  justify-content: center;
+  margin-top: 73px;
+  width: 100%;
+  padding: 0;
+}
+
+.faqs-flex-col-1 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.faqs-flex-col-2 {
+  align-items: flex-start;
+  display: flex;
+  word-wrap: normal;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+#who-is-container {
+  height: 200px;
+  margin-left: 50px;
+  padding: 0;
+}
+
+.who-is-header {
+  color: var(--cinnabar);
+  font-family: var(--font-family-muli-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.who-is-content {
+  font-family: var(--font-family-muli-light);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0;
+  margin-top: 10px;
+}
+.span-1 {
+  color: var(--redwood);
+  font-family: var(--font-family-muli-bold);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+#cant-make-it-container {
+  height: 200px;
+  margin-left: 50px;
+  padding: 0;
+}
+
+.cant-make-it-header {
+  color: var(--cinnabar);
+  font-family: var(--font-family-muli-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.cant-make-it-content {
+  font-family: var(--font-family-muli-light);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0;
+  margin-top: 10px;
+}
+
+.span-2 {
+  color: var(--redwood);
+  font-family: var(--font-family-muli-bold);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+#footer {
+  background-color: #000000;
+}
+
+#footer-logo-contain {
+  padding: 0;
+}
+
+.footer-actual-img {
+  height: 115px;
+  width: 140px;
+  float: right;
+}
