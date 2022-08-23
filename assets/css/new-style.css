@@ -146,27 +146,59 @@ body {
   padding: 0;
 }
 
-.faqs-flex-col-1 {
+/* .faqs-flex-col-1 {
   align-items: flex-start;
   align-self: center;
   display: flex;
   flex-direction: column;
   margin-top: 70px;
   margin-bottom: 70px;
-}
+} */
 
-.faqs-flex-col-2 {
+/* .faqs-flex-col-2 {
   align-items: flex-start;
   display: flex;
   word-wrap: normal;
   flex-direction: column;
   margin-top: 50px;
   margin-bottom: 70px;
-}
+} */
 
-#who-is-container {
+/* #who-is-container {
   height: 200px;
   margin-left: 50px;
+  padding: 0;
+} */
+
+#megaphone-icon,
+#brain-icon,
+#award-icon,
+#questions-icon,
+#calendar-icon,
+#attendance-icon,
+#location-icon,
+#connection-icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 50px;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+
+#who-is-row,
+#cant-make-it-row,
+#workshop-row,
+#dresscode-row,
+#included-row,
+#attendance-row,
+#location-row,
+#connection-row {
+  background-color: var(--gallery);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
   padding: 0;
 }
 
@@ -187,17 +219,12 @@ body {
   letter-spacing: 0;
   margin-top: 10px;
 }
+
 .span-1 {
   color: var(--redwood);
   font-family: var(--font-family-muli-bold);
   font-weight: 700;
   text-decoration: underline;
-}
-
-#cant-make-it-container {
-  height: 250px;
-  margin-left: 50px;
-  padding: 0;
 }
 
 .cant-make-it-header {
@@ -225,13 +252,7 @@ body {
   text-decoration: underline;
 }
 
-#whats-covered-container {
-  height: 250px;
-  margin-left: 50px;
-  padding: 0;
-}
-
-.whats-covered-header {
+.workshop-header {
   color: var(--cinnabar);
   font-family: var(--font-family-muli-bold);
   font-size: var(--font-size-m);
@@ -240,20 +261,13 @@ body {
   line-height: 30px;
 }
 
-.whats-covered-content {
+.workshop-content {
   font-family: var(--font-family-muli-light);
   font-size: var(--font-size-s);
   font-style: normal;
   font-weight: 300;
   letter-spacing: 0;
   margin-top: 10px;
-}
-
-.span-3 {
-  color: var(--redwood);
-  font-family: var(--font-family-muli-bold);
-  font-weight: 700;
-  text-decoration: underline;
 }
 
 #footer {
