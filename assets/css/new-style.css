@@ -143,22 +143,6 @@ body {
   padding: 0;
 }
 
-#megaphone-icon,
-#brain-icon,
-#award-icon,
-#questions-icon,
-#calendar-icon,
-#attendance-icon,
-#location-icon,
-#connection-icon {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  margin-top: 50px;
-  margin-right: 30px;
-  margin-bottom: 50px;
-}
-
 #who-is-row,
 #growing-row,
 #workshop-row,
@@ -173,6 +157,30 @@ body {
   justify-content: center;
   width: 100%;
   padding: 0;
+}
+
+#megaphone-icon,
+#brain-icon,
+#award-icon,
+#questions-icon,
+#calendar-icon,
+#attendance-icon,
+#location-icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 50px;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+
+#connection-icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 50px;
+  margin-right: 30px;
+  margin-bottom: 90px;
 }
 
 .who-is-header,
@@ -197,7 +205,15 @@ body {
 .dresscode-content,
 .included-content,
 .attendance-content,
-.location-content,
+.location-content {
+  font-family: var(--font-family-muli-light);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0;
+  margin-top: 10px;
+}
+
 .connection-content {
   font-family: var(--font-family-muli-light);
   font-size: var(--font-size-s);
@@ -205,6 +221,7 @@ body {
   font-weight: 300;
   letter-spacing: 0;
   margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 .span-1,
