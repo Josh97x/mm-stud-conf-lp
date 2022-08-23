@@ -58,6 +58,58 @@ body {
   padding: 0;
 }
 
+/***** SPEAKERS SECTION *****/
+#speaker-header-container {
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+  padding: 0;
+}
+
+.speaker-horizontal-bar {
+  justify-content: center;
+  background-color: #e53d2e;
+  height: 6px;
+  width: 80px;
+  margin-right: 80px;
+}
+
+.speaker-header {
+  font-family: var(--font-family-muli-black);
+  color: #e53d2e;
+  font-weight: 600;
+  font-size: 46px;
+  margin-top: 15px;
+}
+
+/***** AGENDA SECTION *****/
+#agenda-header-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.agenda-horizontal-bar {
+  justify-content: center;
+  background-color: #e53d2e;
+  height: 6px;
+  width: 80px;
+  margin-right: 80px;
+}
+
+.agenda-header {
+  font-family: var(--font-family-muli-black);
+  color: #e53d2e;
+  font-weight: 600;
+  font-size: 46px;
+  margin-top: 15px;
+}
+
+/***** VENUE SECTION *****/
 #venue-header-container {
   justify-content: start;
   display: flex;
@@ -109,6 +161,7 @@ body {
   transition: 0.3s ease;
 }
 
+/***** FAQ's SECTION *****/
 #faqs-header-container {
   justify-content: center;
   align-items: center;
@@ -232,6 +285,7 @@ body {
   text-decoration: underline;
 }
 
+/***** FOOTER SECTION *****/
 #footer {
   background-color: #000000;
 }
