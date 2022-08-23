@@ -178,7 +178,14 @@ body {
   padding: 0;
 }
 
-.who-is-header {
+.who-is-header,
+.growing-header,
+.workshop-header,
+.dresscode-header,
+.included-header,
+.attendance-header,
+.location-header,
+.connection-header {
   color: var(--cinnabar);
   font-family: var(--font-family-muli-bold);
   font-size: var(--font-size-m);
@@ -187,7 +194,14 @@ body {
   line-height: 30px;
 }
 
-.who-is-content {
+.who-is-content,
+.growing-content,
+.workshop-content,
+.dresscode-content,
+.included-content,
+.attendance-content,
+.location-content,
+.connection-content {
   font-family: var(--font-family-muli-light);
   font-size: var(--font-size-s);
   font-style: normal;
@@ -196,54 +210,12 @@ body {
   margin-top: 10px;
 }
 
-.span-1 {
-  color: var(--redwood);
-  font-family: var(--font-family-muli-bold);
-  font-weight: 700;
-  text-decoration: underline;
-}
-
-.growing-header {
-  color: var(--cinnabar);
-  font-family: var(--font-family-muli-bold);
-  font-size: var(--font-size-m);
-  font-style: normal;
-  font-weight: 700;
-  line-height: 30px;
-}
-
-.growing-content {
-  font-family: var(--font-family-muli-light);
-  font-size: var(--font-size-s);
-  font-style: normal;
-  font-weight: 300;
-  letter-spacing: 0;
-  margin-top: 10px;
-}
-
+.span-1,
 .span-2 {
   color: var(--redwood);
   font-family: var(--font-family-muli-bold);
   font-weight: 700;
   text-decoration: underline;
-}
-
-.workshop-header {
-  color: var(--cinnabar);
-  font-family: var(--font-family-muli-bold);
-  font-size: var(--font-size-m);
-  font-style: normal;
-  font-weight: 700;
-  line-height: 30px;
-}
-
-.workshop-content {
-  font-family: var(--font-family-muli-light);
-  font-size: var(--font-size-s);
-  font-style: normal;
-  font-weight: 300;
-  letter-spacing: 0;
-  margin-top: 10px;
 }
 
 #footer {
