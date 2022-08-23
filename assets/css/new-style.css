@@ -60,12 +60,12 @@ body {
 }
 
 #venue-header-container {
-  justify-content: center;
+  justify-content: start;
   display: flex;
   flex-direction: column;
   padding: 0;
-  margin-left: 25%;
-  margin-bottom: 150px;
+  /* margin-left: 50px;
+  margin-bottom: 150px; */
 }
 
 .venue-horizontal-bar {
@@ -73,7 +73,9 @@ body {
   background-color: #e53d2e;
   height: 6px;
   width: 80px;
+  margin-top: 50px;
   margin-right: 50px;
+  margin-left: 50px;
 }
 
 .venue-header {
@@ -82,6 +84,7 @@ body {
   font-weight: 600;
   font-size: 46px;
   margin-top: 15px;
+  margin-left: 50px;
 }
 
 .venue-content {
@@ -91,16 +94,19 @@ body {
   font-weight: 300;
   letter-spacing: 0;
   margin-top: 40px;
+  margin-left: 50px;
 }
 
-.venue-map {
+#venue-map {
   height: 350px;
   width: 500px;
   margin-top: 50px;
+  margin-left: 40px;
+  margin-bottom: 200px;
   object-fit: cover;
 }
 
-.venue-map:hover {
+#venue-map:hover {
   opacity: 0.5;
   filter: brightness(75%);
   transition: 0.3s ease;
