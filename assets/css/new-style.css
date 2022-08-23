@@ -58,8 +58,41 @@ body {
   padding: 0;
 }
 
+/***** WHY ATTEND SECTION *****/
+#why-attend-header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 115px;
+  margin-bottom: 100px;
+  padding: 0;
+}
+
+#why-attend-background {
+  background-color: var(--gallery);
+  height: 500px;
+}
+
+.why-attend-horizontal-bar {
+  justify-content: center;
+  background-color: #e53d2e;
+  height: 6px;
+  width: 80px;
+  margin-right: 195px;
+}
+
+.why-attend-header {
+  font-family: var(--font-family-muli-black);
+  color: #e53d2e;
+  font-weight: 600;
+  font-size: 46px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
 /***** SPEAKERS SECTION *****/
-#speaker-header-container {
+/* #speaker-header-container {
   justify-content: center;
   align-items: flex-start;
   display: flex;
@@ -82,7 +115,7 @@ body {
   font-weight: 600;
   font-size: 46px;
   margin-top: 15px;
-}
+} */
 
 /***** AGENDA SECTION *****/
 #agenda-header-container {
@@ -107,6 +140,20 @@ body {
   font-weight: 600;
   font-size: 46px;
   margin-top: 15px;
+}
+
+#agenda-img-contain {
+  background-color: var(--gallery);
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding: 0;
+}
+
+#agenda-schedule-img {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  height: 620px;
+  width: 650px;
 }
 
 /***** VENUE SECTION *****/
