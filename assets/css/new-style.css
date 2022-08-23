@@ -141,34 +141,10 @@ body {
   background-color: var(--gallery);
   display: flex;
   justify-content: center;
-  margin-top: 73px;
+  margin-top: 75px;
   width: 100%;
   padding: 0;
 }
-
-/* .faqs-flex-col-1 {
-  align-items: flex-start;
-  align-self: center;
-  display: flex;
-  flex-direction: column;
-  margin-top: 70px;
-  margin-bottom: 70px;
-} */
-
-/* .faqs-flex-col-2 {
-  align-items: flex-start;
-  display: flex;
-  word-wrap: normal;
-  flex-direction: column;
-  margin-top: 50px;
-  margin-bottom: 70px;
-} */
-
-/* #who-is-container {
-  height: 200px;
-  margin-left: 50px;
-  padding: 0;
-} */
 
 #megaphone-icon,
 #brain-icon,
@@ -187,7 +163,7 @@ body {
 }
 
 #who-is-row,
-#cant-make-it-row,
+#growing-row,
 #workshop-row,
 #dresscode-row,
 #included-row,
@@ -227,7 +203,7 @@ body {
   text-decoration: underline;
 }
 
-.cant-make-it-header {
+.growing-header {
   color: var(--cinnabar);
   font-family: var(--font-family-muli-bold);
   font-size: var(--font-size-m);
@@ -236,7 +212,7 @@ body {
   line-height: 30px;
 }
 
-.cant-make-it-content {
+.growing-content {
   font-family: var(--font-family-muli-light);
   font-size: var(--font-size-s);
   font-style: normal;
