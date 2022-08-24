@@ -14,8 +14,20 @@ body {
   padding: 0;
 }
 
+#hero-section {
+  position: relative;
+}
+
 #bg-img {
   background-size: cover;
+  position: relative;
+}
+
+#mm-stud-conf-img {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #nav-menu {
@@ -71,7 +83,7 @@ body {
 
 #why-attend-background {
   background-color: var(--gallery);
-  height: 600px;
+  height: 500px;
 }
 
 .why-attend-horizontal-bar {
