@@ -39,7 +39,58 @@ body {
   transform: translate(-50%, -50%);
 }
 
-#nav-menu {
+/***** NAVIGATION SECTION *****/
+.Navbar {
+  background-color: #e53d2e;
+  display: flex;
+  padding: 16px;
+  font-family: sans-serif;
+  align-items: center;
+}
+
+.Navbar__Link {
+  padding-right: 8px;
+  color: #ffffff;
+}
+
+.Navbar__Items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between 50px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.Navbar__Link-toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .Navbar__Items,
+  .Navbar {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .Navbar__Items {
+    display: none;
+  }
+
+  .Navbar__ToggleShow {
+    display: flex;
+  }
+
+  .Navbar__Link-toggle {
+    font-size: 24px;
+    align-self: flex-end;
+    justify-content: center;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+  }
+}
+
+/* #nav-menu {
   background-color: #e53d2e;
 }
 
@@ -69,6 +120,12 @@ body {
   flex-wrap: nowrap;
   width: 130px;
 }
+
+#signup-btn-nav:hover {
+  background-color: var(--gallery);
+  color: var(--cinnabar);
+  border: none;
+} */
 
 #whyAttend,
 #speakers,
@@ -265,7 +322,6 @@ body {
   height: 350px;
   width: 500px;
   margin-top: 50px;
-  margin-left: 40px;
   margin-bottom: 200px;
   object-fit: cover;
 }
