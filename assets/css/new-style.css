@@ -150,22 +150,31 @@ body {
   align-items: center;
   justify-content: center;
   align-self: center;
-  /* flex-wrap: wrap; */
   flex-direction: row;
   align-content: center;
   margin-top: 100px;
 }
 
+#second-speaker-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  flex-direction: row;
+  align-content: center;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
 .first-speaker,
 .second-speaker,
-.third-speaker {
+.third-speaker,
+.fourth-speaker,
+.fifth-speaker,
+.sixth-speaker {
   display: flex;
   justify-content: center;
 }
-/* .second-speaker {
-}
-.third-speaker {
-} */
 
 /***** AGENDA SECTION *****/
 #agenda-header-container {
