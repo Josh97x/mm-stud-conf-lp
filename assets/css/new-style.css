@@ -123,8 +123,8 @@ body {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  margin-top: 150px;
-  margin-left: 150px;
+  margin-top: 250px;
+  /* margin-left: 150px; */
   margin-bottom: 100px;
   padding: 0;
 }
@@ -144,6 +144,28 @@ body {
   font-size: 46px;
   margin-top: 15px;
 }
+
+#first-speaker-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  align-content: center;
+  margin-top: 100px;
+}
+
+.first-speaker,
+.second-speaker,
+.third-speaker {
+  display: flex;
+  justify-content: center;
+}
+/* .second-speaker {
+}
+.third-speaker {
+} */
 
 /***** AGENDA SECTION *****/
 #agenda-header-container {
