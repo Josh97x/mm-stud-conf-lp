@@ -39,6 +39,83 @@ body {
   transform: translate(-50%, -50%);
 }
 
+/***** COUNTDOWN CLOCK *****/
+#clock-container {
+  position: relative;
+}
+
+#clockdiv {
+  background-color: var(--gallery);
+  color: #231f20;
+  opacity: 0.9;
+  display: inline-block;
+  position: absolute;
+  top: -300px;
+  width: 50%;
+  /* left: -320px; */
+  min-height: 200px;
+  font-family: var(--font-family-muli);
+}
+
+#clockdiv > div {
+  display: inline-block;
+  padding: 10px 5px 5px 15px;
+  font-size: 110px;
+  margin-top: 25px;
+  margin-left: 15px;
+  line-height: 75px;
+}
+
+#clockdiv div > span {
+  padding: 10px 0px 30px 0px;
+  margin-left: 40px;
+  flex-wrap: nowrap;
+  font-size: 100px;
+}
+
+.smalltext {
+  color: #231f20;
+  font-size: 24px;
+  text-align: center;
+  margin-left: 40px;
+}
+
+@media only screen and (max-width: 1440px) {
+  #clockdiv {
+    display: flex;
+    flex-direction: row;
+    min-height: 100px;
+    width: 100%;
+  }
+
+  #clockdiv > div {
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px 5px 5px 15px; */
+    /* font-size: 110px; */
+    font-size: 24vw;
+    /* margin-top: 25px; */
+    /* margin-left: 15px; */
+    line-height: none;
+  }
+
+  #clockdiv div > span {
+    /* padding: 10px 0px 30px 0px; */
+    /* margin-left: 40px; */
+    /* flex-wrap: nowrap; */
+    /* font-size: 100px; */
+    font-size: 12px;
+  }
+
+  .smalltext {
+    color: #231f20;
+    /* font-size: 24px; */
+    font-size: 18px;
+    text-align: center;
+    /* margin-left: 40px; */
+  }
+}
+
 /***** NAVIGATION SECTION *****/
 .navbar {
   background-color: #e53d2e;
@@ -90,19 +167,6 @@ body {
   }
 }
 
-/* #nav-menu {
-  background-color: #e53d2e;
-}
-
-#nav-row {
-  height: 180px;
-}
-
-#nav-logo {
-  height: 100px;
-  width: 110px;
-}
-*/
 #why-attend-nav,
 #speakers-nav,
 #agenda-nav,
