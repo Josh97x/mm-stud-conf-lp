@@ -40,7 +40,7 @@ body {
 }
 
 /***** NAVIGATION SECTION *****/
-.Navbar {
+.navbar {
   background-color: #e53d2e;
   display: flex;
   padding: 16px;
@@ -48,12 +48,12 @@ body {
   align-items: center;
 }
 
-.Navbar__Link {
+.navbar-link {
   padding-right: 8px;
   color: #ffffff;
 }
 
-.Navbar__Items {
+.navbar-items {
   display: flex;
   align-items: center;
   justify-content: space-between 50px;
@@ -61,26 +61,26 @@ body {
   font-size: 24px;
 }
 
-.Navbar__Link-toggle {
+.navbar-link-toggle {
   display: none;
 }
 
 @media only screen and (max-width: 768px) {
-  .Navbar__Items,
-  .Navbar {
+  .navbar-items,
+  .navbar {
     flex-direction: column;
     padding: 20px;
   }
 
-  .Navbar__Items {
+  .navbar-items {
     display: none;
   }
 
-  .Navbar__ToggleShow {
+  .navbar-toggleShow {
     display: flex;
   }
 
-  .Navbar__Link-toggle {
+  .navbar-link-toggle {
     font-size: 24px;
     align-self: flex-end;
     justify-content: center;
