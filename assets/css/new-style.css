@@ -102,7 +102,7 @@ body {
   height: 100px;
   width: 110px;
 }
-
+*/
 #why-attend-nav,
 #speakers-nav,
 #agenda-nav,
@@ -125,7 +125,7 @@ body {
   background-color: var(--gallery);
   color: var(--cinnabar);
   border: none;
-} */
+}
 
 #whyAttend,
 #speakers,
