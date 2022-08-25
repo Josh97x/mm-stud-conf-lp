@@ -41,18 +41,26 @@ body {
   height: auto;
 }
 
-@media only screen and (max-width: 1024px) {
-  #mm-stud-conf-img {
-    max-width: 50%;
-    height: auto;
-    top: 90px;
-  }
+#mm-stud-conf-desc-img {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 60%;
+  height: auto;
+}
 
-  #header-97th-img {
-    top: 0%;
-    height: 50px;
-    width: 60px;
-  }
+#sign-up-now-btn {
+  position: absolute;
+  top: 57.5%;
+  left: 73%;
+  transform: translate(-50%, -50%);
+  max-width: 260px;
+  height: 75px;
+}
+
+#sign-up-now-btn-hover:hover {
+  color: #231f20;
 }
 
 /***** COUNTDOWN CLOCK *****/
@@ -570,6 +578,102 @@ body {
   height: 115px;
   width: 140px;
   float: right;
+}
+
+@media only screen and (max-width: 1440px) {
+  #mm-stud-conf-img {
+    max-width: 70%;
+    height: auto;
+    top: 220px;
+  }
+
+  #mm-stud-conf-desc-img {
+    max-width: 73%;
+    height: auto;
+    top: 450px;
+  }
+
+  #sign-up-now-btn {
+    max-width: 15%;
+    height: auto;
+    top: 585px;
+    left: 1125px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #header-97th-img {
+    top: 0%;
+    height: 50px;
+    width: 60px;
+  }
+
+  #mm-stud-conf-img {
+    max-width: 60%;
+    height: auto;
+    top: 140px;
+  }
+
+  #mm-stud-conf-desc-img {
+    max-width: 60%;
+    height: auto;
+    top: 270px;
+  }
+
+  #sign-up-now-btn {
+    max-width: 15%;
+    height: auto;
+    top: 360px;
+    left: 740px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #mm-stud-conf-img {
+    max-width: 60%;
+    height: auto;
+    top: 110px;
+  }
+
+  #mm-stud-conf-desc-img {
+    max-width: 62%;
+    height: auto;
+    top: 210px;
+  }
+
+  #sign-up-now-btn {
+    max-width: 15%;
+    height: auto;
+    top: 275px;
+    left: 560px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #header-97th-img {
+    top: 0%;
+    height: 35px;
+    width: 45px;
+  }
+
+  #mm-stud-conf-img {
+    max-width: 55%;
+    height: auto;
+    top: 70px;
+  }
+
+  #mm-stud-conf-desc-img {
+    max-width: 58%;
+    height: auto;
+    top: 120px;
+  }
+
+  #sign-up-now-btn {
+    max-width: 12%;
+    height: auto;
+    top: 160px;
+    left: 308px;
+  }
 }
 
 @media screen and (max-width: 600px) {
