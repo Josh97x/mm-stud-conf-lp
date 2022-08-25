@@ -81,7 +81,7 @@ body {
   font-family: var(--font-family-muli);
   justify-content: center;
   align-content: flex-start;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 #clockdiv > div {
@@ -695,6 +695,150 @@ body {
     height: auto;
     top: 160px;
     left: 308px;
+  }
+}
+
+/***** MEDIA SCREEN FOR COUNTDOWN CLOCK *****/
+@media only screen and (max-width: 1440px) {
+  #clockdiv {
+    background-color: var(--gallery);
+    color: #231f20;
+    opacity: 0.9;
+    display: flex;
+    width: 50%;
+    font-family: var(--font-family-muli);
+    justify-content: center;
+    align-content: flex-end;
+  }
+
+  #clockdiv > div {
+    display: flex;
+    flex-direction: column;
+    font-size: 80px;
+    margin-top: 25px;
+    margin-left: 15px;
+    line-height: 75px;
+  }
+
+  #clockdiv div > span {
+    margin-left: 40px;
+    flex-wrap: nowrap;
+    font-size: 80px;
+  }
+
+  .smalltext {
+    color: #231f20;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 20px;
+  }
+}
+
+/***** MEDIA SCREEN FOR COUNTDOWN CLOCK *****/
+@media only screen and (max-width: 1024px) {
+  #clockdiv {
+    background-color: var(--gallery);
+    color: #231f20;
+    opacity: 0.9;
+    display: flex;
+    width: 50%;
+    font-family: var(--font-family-muli);
+    justify-content: center;
+    align-content: flex-start;
+  }
+
+  #clockdiv > div {
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    margin-top: 25px;
+    margin-left: 15px;
+    line-height: 55px;
+  }
+
+  #clockdiv div > span {
+    margin-left: 20px;
+    flex-wrap: nowrap;
+    font-size: 50px;
+  }
+
+  .smalltext {
+    color: #231f20;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 20px;
+  }
+}
+
+/***** MEDIA SCREEN FOR COUNTDOWN CLOCK *****/
+@media only screen and (max-width: 768px) {
+  #clockdiv {
+    background-color: var(--gallery);
+    color: #231f20;
+    opacity: 0.9;
+    display: flex;
+    width: 50%;
+    font-family: var(--font-family-muli);
+    justify-content: center;
+    align-content: flex-start;
+  }
+
+  #clockdiv > div {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 25px;
+    line-height: 35px;
+  }
+
+  #clockdiv div > span {
+    margin-left: 10px;
+    flex-wrap: nowrap;
+    font-size: 30px;
+  }
+
+  .smalltext {
+    color: #231f20;
+    font-size: 8px;
+    text-align: center;
+    margin-left: 10px;
+  }
+}
+
+/***** MEDIA SCREEN FOR COUNTDOWN CLOCK *****/
+@media only screen and (max-width: 425px) {
+  #clockdiv {
+    background-color: var(--gallery);
+    color: #231f20;
+    opacity: 0.9;
+    display: flex;
+    width: 60%;
+    font-family: var(--font-family-muli);
+    justify-content: center;
+    /* align-content: flex-start; */
+  }
+
+  #clockdiv > div {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+    line-height: 25px;
+  }
+
+  #clockdiv div > span {
+    margin-left: 20px;
+    flex-wrap: nowrap;
+    font-size: 20px;
+  }
+
+  .smalltext {
+    color: #231f20;
+    font-size: 8px;
+    text-align: center;
+    margin-left: 10px;
   }
 }
 
