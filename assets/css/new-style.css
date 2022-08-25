@@ -37,6 +37,22 @@ body {
   top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
+  max-width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  #mm-stud-conf-img {
+    max-width: 50%;
+    height: auto;
+    top: 90px;
+  }
+
+  #header-97th-img {
+    top: 0%;
+    height: 50px;
+    width: 60px;
+  }
 }
 
 /***** COUNTDOWN CLOCK *****/
