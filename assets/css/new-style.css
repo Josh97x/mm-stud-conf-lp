@@ -69,15 +69,15 @@ body {
 }
 
 #clockdiv {
-  /* background-color: var(--gallery); */
+  background-color: var(--gallery);
   color: #231f20;
   opacity: 0.9;
   display: flex;
   /* position: absolute; */
   /* top: -300px; */
-  width: 50%;
   /* left: -320px; */
   /* min-height: 50px; */
+  width: 50%;
   font-family: var(--font-family-muli);
   justify-content: center;
   align-content: flex-start;
@@ -87,7 +87,6 @@ body {
 #clockdiv > div {
   display: flex;
   flex-direction: column;
-  /* padding: 10px 5px 5px 15px; */
   font-size: 90px;
   margin-top: 25px;
   margin-left: 15px;
@@ -95,7 +94,6 @@ body {
 }
 
 #clockdiv div > span {
-  /* padding: 10px 0px 30px 0px; */
   margin-left: 40px;
   flex-wrap: nowrap;
   font-size: 90px;
@@ -108,43 +106,7 @@ body {
   margin-left: 40px;
 }
 
-/* @media only screen and (max-width: 1440px) {
-  #clockdiv {
-    display: flex;
-    flex-direction: row;
-    min-height: 100px;
-    width: 100%;
-  }
-
-  #clockdiv > div {
-    display: flex;
-    flex-direction: column;
-    padding: 10px 5px 5px 15px;
-    font-size: 110px;
-    font-size: 24px;
-    margin-top: 25px;
-    margin-left: 15px;
-    line-height: none;
-  }
-
-  #clockdiv div > span {
-    padding: 10px 0px 30px 0px;
-    margin-left: 40px;
-    flex-wrap: nowrap;
-    font-size: 100px;
-    font-size: 12px;
-  }
-
-  .smalltext {
-    color: #231f20;
-    font-size: 24px;
-    font-size: 18px;
-    text-align: center;
-    margin-left: 40px;
-  }
-} */
-
-/***** NAVIGATION SECTION *****/
+/***** NAVBAR SECTION *****/
 .navbar {
   background-color: #e53d2e;
   display: flex;
