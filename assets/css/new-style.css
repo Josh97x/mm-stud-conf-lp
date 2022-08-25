@@ -660,6 +660,34 @@ body {
   }
 }
 
+/***** MEDIA SCREEN FOR HERO SECTION *****/
+@media only screen and (max-width: 320px) {
+  #header-97th-img {
+    top: 0%;
+    height: 25px;
+    width: 30px;
+  }
+
+  #mm-stud-conf-img {
+    max-width: 55%;
+    height: auto;
+    top: 50px;
+  }
+
+  #mm-stud-conf-desc-img {
+    max-width: 58%;
+    height: auto;
+    top: 92px;
+  }
+
+  #sign-up-now-btn {
+    max-width: 12%;
+    height: auto;
+    top: 115px;
+    left: 233px;
+  }
+}
+
 /***** MEDIA SCREEN FOR COUNTDOWN CLOCK *****/
 @media only screen and (max-width: 1440px) {
   #clockdiv {
@@ -778,7 +806,6 @@ body {
     width: 60%;
     font-family: var(--font-family-muli);
     justify-content: center;
-    /* align-content: flex-start; */
   }
 
   #clockdiv > div {
@@ -798,7 +825,42 @@ body {
 
   .smalltext {
     color: #231f20;
-    font-size: 8px;
+    font-size: 7px;
+    text-align: center;
+    margin-left: 10px;
+  }
+}
+
+/***** MEDIA SCREEN FOR COUNTDOWN CLOCK *****/
+@media only screen and (max-width: 320px) {
+  #clockdiv {
+    background-color: var(--gallery);
+    color: #231f20;
+    opacity: 0.9;
+    display: flex;
+    width: 50%;
+    font-family: var(--font-family-muli);
+    justify-content: center;
+  }
+
+  #clockdiv > div {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-left: 10px;
+    line-height: 15px;
+  }
+
+  #clockdiv div > span {
+    margin-left: 10px;
+    flex-wrap: nowrap;
+    font-size: 14px;
+  }
+
+  .smalltext {
+    color: #231f20;
+    font-size: 3px;
     text-align: center;
     margin-left: 10px;
   }
