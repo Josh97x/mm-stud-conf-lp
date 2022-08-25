@@ -171,40 +171,6 @@ body {
   display: none;
 }
 
-@media only screen and (max-width: 1024px) {
-  .navbar-items,
-  .navbar {
-    flex-direction: column;
-    padding: 20px;
-  }
-
-  .navbar-items {
-    display: none;
-  }
-
-  .navbar-toggleShow {
-    display: flex;
-  }
-
-  .navbar-link-toggle {
-    font-size: 24px;
-    align-self: flex-end;
-    justify-content: center;
-    display: initial;
-    position: absolute;
-    cursor: pointer;
-  }
-  #why-attend-nav,
-  #speakers-nav,
-  #agenda-nav,
-  #venue-nav,
-  #faqs-nav,
-  #signup-btn-nav {
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-}
-
 #why-attend-nav,
 #speakers-nav,
 #agenda-nav,
@@ -733,21 +699,60 @@ body {
 }
 
 /***** MEDIA SCREEN FOR NAVBAR *****/
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 1024px) {
+  .navbar-items,
+  .navbar {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .navbar-items {
+    display: none;
+  }
+
+  .navbar-toggleShow {
+    display: flex;
+  }
+
+  .navbar-link-toggle {
+    font-size: 24px;
+    align-self: flex-end;
+    justify-content: center;
+    display: initial;
+    position: absolute;
+    cursor: pointer;
+  }
+  #why-attend-nav,
+  #speakers-nav,
+  #agenda-nav,
+  #venue-nav,
+  #faqs-nav,
+  #signup-btn-nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+/***** MEDIA SCREEN FOR NAVBAR *****/
+@media only screen and (max-width: 600px) {
   #nav-menu {
     display: flex;
     flex-direction: column;
   }
 }
 
-/***** MEDIA SCREEN FOR FOOTER SECTION *****/
-@media screen and (max-width: 1440px) {
-  /* #contact-us {
-    font-size: 24px;
-  } */
+/***** MEDIA SCREEN FOR AGENDA SECTION IMG *****/
+@media only screen and (max-width: 425px) {
+  #agenda-schedule-img {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    height: 420px;
+    width: 450px;
+  }
 }
 
-@media screen and (max-width: 1024px) {
+/***** MEDIA SCREENS FOR FOOTER SECTION *****/
+@media only screen and (max-width: 1024px) {
   #footer-contact-us {
     color: #ffffff;
     justify-content: center;
@@ -792,7 +797,8 @@ body {
   }
 }
 
-@media screen and (max-width: 768px) {
+/***** MEDIA SCREENS FOR FOOTER SECTION *****/
+@media only screen and (max-width: 768px) {
   #footer-contact-us {
     color: #ffffff;
     justify-content: center;
@@ -830,7 +836,8 @@ body {
   }
 }
 
-@media screen and (max-width: 425px) {
+/***** MEDIA SCREENS FOR FOOTER SECTION *****/
+@media only screen and (max-width: 425px) {
   #footer-contact-us {
     color: #ffffff;
     justify-content: center;
