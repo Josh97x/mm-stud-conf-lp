@@ -28,13 +28,13 @@ body {
   top: 0%;
   left: 47%;
   transform: translate(-15%, -15%);
-  height: 100px;
-  width: 120px;
+  height: 120px;
+  width: 140px;
 }
 
 #mm-stud-conf-img {
   position: absolute;
-  top: 25%;
+  top: 22%;
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 100%;
@@ -43,24 +43,24 @@ body {
 
 #mm-stud-conf-desc-img {
   position: absolute;
-  top: 45%;
+  top: 41%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 60%;
+  max-width: 58%;
   height: auto;
 }
 
 #sign-up-now-btn {
   position: absolute;
-  top: 57.5%;
-  left: 73%;
+  top: 53%;
+  left: 72.5%;
   transform: translate(-50%, -50%);
   max-width: 260px;
   height: 75px;
 }
 
-#sign-up-now-btn-hover:hover {
-  color: #231f20;
+#sign-up-now-btn:hover {
+  background: #231f20;
 }
 
 /***** COUNTDOWN CLOCK *****/
@@ -148,6 +148,7 @@ body {
 .navbar {
   background-color: #e53d2e;
   display: flex;
+  justify-content: center;
   padding: 16px;
   font-family: sans-serif;
   align-items: center;
@@ -161,7 +162,7 @@ body {
 .navbar-items {
   display: flex;
   align-items: center;
-  justify-content: space-between 50px;
+  justify-content: center;
   text-align: center;
   font-size: 24px;
 }
@@ -170,7 +171,7 @@ body {
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .navbar-items,
   .navbar {
     flex-direction: column;
@@ -193,6 +194,15 @@ body {
     position: absolute;
     cursor: pointer;
   }
+  #why-attend-nav,
+  #speakers-nav,
+  #agenda-nav,
+  #venue-nav,
+  #faqs-nav,
+  #signup-btn-nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
 
 #why-attend-nav,
@@ -204,6 +214,8 @@ body {
   font-size: 24px;
   text-decoration: none;
   letter-spacing: 1px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 #signup-btn-nav {
@@ -211,6 +223,8 @@ body {
   font-size: 24px;
   flex-wrap: nowrap;
   width: 130px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 #signup-btn-nav:hover {
