@@ -594,6 +594,45 @@ body {
   float: right;
 }
 
+#footer-contact-us {
+  color: #ffffff;
+  justify-content: center;
+  font-family: var(--font-family-muli-bold);
+  font-size: 80px;
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+#footer-questions {
+  color: #ffffff;
+  justify-content: center;
+  font-family: var(--font-family-muli-bold);
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+}
+
+#footer-email {
+  color: #ffffff;
+  justify-content: center;
+  font-family: var(--font-family-muli-bold);
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#social-icons {
+  justify-content: center;
+  display: inline-block;
+  margin: 60px 0px 70px 0px;
+}
+
+.li-image,
+.fb-image,
+.ig-image {
+  height: 50px;
+  width: 50px;
+}
+
+/***** MEDIA SCREEN FOR HERO SECTION *****/
 @media only screen and (max-width: 1440px) {
   #mm-stud-conf-img {
     max-width: 70%;
@@ -615,6 +654,7 @@ body {
   }
 }
 
+/***** MEDIA SCREEN FOR HERO SECTION *****/
 @media only screen and (max-width: 1024px) {
   #header-97th-img {
     top: 0%;
@@ -642,6 +682,7 @@ body {
   }
 }
 
+/***** MEDIA SCREEN FOR HERO SECTION *****/
 @media only screen and (max-width: 768px) {
   #mm-stud-conf-img {
     max-width: 60%;
@@ -663,6 +704,7 @@ body {
   }
 }
 
+/***** MEDIA SCREEN FOR HERO SECTION *****/
 @media only screen and (max-width: 425px) {
   #header-97th-img {
     top: 0%;
@@ -690,9 +732,147 @@ body {
   }
 }
 
+/***** MEDIA SCREEN FOR NAVBAR *****/
 @media screen and (max-width: 600px) {
   #nav-menu {
     display: flex;
     flex-direction: column;
+  }
+}
+
+/***** MEDIA SCREEN FOR FOOTER SECTION *****/
+@media screen and (max-width: 1440px) {
+  /* #contact-us {
+    font-size: 24px;
+  } */
+}
+
+@media screen and (max-width: 1024px) {
+  #footer-contact-us {
+    color: #ffffff;
+    justify-content: center;
+    font-family: var(--font-family-muli-bold);
+    font-size: 60px;
+    font-weight: 400;
+  }
+
+  #footer-questions {
+    color: #ffffff;
+    justify-content: center;
+    font-family: var(--font-family-muli-bold);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+  }
+
+  #footer-email {
+    color: #ffffff;
+    justify-content: center;
+    font-family: var(--font-family-muli-bold);
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  #social-icons {
+    justify-content: center;
+    display: inline-block;
+    margin: 35px 0px 50px 0px;
+  }
+
+  .li-image,
+  .fb-image,
+  .ig-image {
+    height: 40px;
+    width: 40px;
+  }
+
+  .footer-97th-img {
+    height: 100px;
+    width: 120px;
+    float: right;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #footer-contact-us {
+    color: #ffffff;
+    justify-content: center;
+    font-family: var(--font-family-muli-bold);
+    font-size: 60px;
+    font-weight: 400;
+  }
+
+  #footer-questions {
+    color: #ffffff;
+    justify-content: center;
+    font-family: var(--font-family-muli-bold);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+  }
+
+  #footer-email {
+    color: #ffffff;
+    justify-content: center;
+    font-family: var(--font-family-muli-bold);
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  #social-icons {
+    justify-content: center;
+    display: inline-block;
+    margin: 30px 0px 40px 0px;
+  }
+
+  .footer-97th-img {
+    height: 90px;
+    width: 100px;
+    float: right;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #footer-contact-us {
+    color: #ffffff;
+    justify-content: center;
+    font-family: var(--font-family-muli-bold);
+    font-size: 40px;
+    font-weight: 400;
+  }
+
+  #footer-questions {
+    color: #ffffff;
+    justify-content: center;
+    font-family: var(--font-family-muli-bold);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #footer-email {
+    color: #ffffff;
+    justify-content: center;
+    font-family: var(--font-family-muli-bold);
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  #social-icons {
+    justify-content: center;
+    display: inline-block;
+    margin: 30px 0px 40px 0px;
+  }
+
+  .li-image,
+  .fb-image,
+  .ig-image {
+    height: 30px;
+    width: 30px;
+  }
+
+  .footer-97th-img {
+    height: 70px;
+    width: 80px;
+    float: right;
   }
 }
