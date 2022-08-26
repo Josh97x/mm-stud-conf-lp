@@ -52,7 +52,7 @@ body {
 
 #sign-up-now-btn {
   position: absolute;
-  top: 53%;
+  top: 55%;
   left: 72.5%;
   transform: translate(-50%, -50%);
   max-width: 260px;
@@ -70,7 +70,7 @@ body {
   opacity: 0.9;
   display: flex;
   position: absolute;
-  top: 615px;
+  top: 715px;
   left: 0px;
   min-height: 50px;
   width: 50%;
@@ -218,7 +218,7 @@ body {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  margin-top: 250px;
+  margin-top: 270px;
   margin-bottom: 100px;
   padding: 0;
 }
@@ -228,7 +228,7 @@ body {
   background-color: #e53d2e;
   height: 6px;
   width: 80px;
-  margin-left: 100px;
+  margin-left: 175px;
 }
 
 .speaker-header {
@@ -237,7 +237,7 @@ body {
   font-weight: 600;
   font-size: 46px;
   margin-top: 15px;
-  margin-left: 100px;
+  margin-left: 175px;
 }
 
 #first-speaker-row {
@@ -910,6 +910,14 @@ body {
   #nav-menu {
     display: flex;
     flex-direction: column;
+  }
+}
+
+/***** MEDIA SCREEN FOR SPEAKER SECTION HEADER *****/
+@media only screen and (max-width: 425px) {
+  .speaker-horizontal-bar,
+  .speaker-header {
+    margin-left: 70px;
   }
 }
 
