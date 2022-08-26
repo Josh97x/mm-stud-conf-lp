@@ -591,8 +591,8 @@ body {
 @media only screen and (max-width: 1024px) {
   #header-97th-img {
     top: 0%;
-    height: 50px;
-    width: 60px;
+    height: 60px;
+    width: 70px;
   }
 
   #mm-stud-conf-img {
@@ -617,6 +617,12 @@ body {
 
 /***** MEDIA SCREEN FOR HERO SECTION *****/
 @media only screen and (max-width: 768px) {
+  #header-97th-img {
+    top: 0%;
+    height: 50px;
+    width: 60px;
+  }
+
   #mm-stud-conf-img {
     max-width: 60%;
     height: auto;
