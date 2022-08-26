@@ -34,7 +34,7 @@ body {
 
 #mm-stud-conf-img {
   position: absolute;
-  top: 22%;
+  top: 28%;
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 100%;
@@ -43,7 +43,7 @@ body {
 
 #mm-stud-conf-desc-img {
   position: absolute;
-  top: 41%;
+  top: 48%;
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 58%;
@@ -52,7 +52,7 @@ body {
 
 #sign-up-now-btn {
   position: absolute;
-  top: 55%;
+  top: 63%;
   left: 72.5%;
   transform: translate(-50%, -50%);
   max-width: 260px;
@@ -70,7 +70,7 @@ body {
   opacity: 0.9;
   display: flex;
   position: absolute;
-  top: 715px;
+  top: 790px;
   left: 0px;
   min-height: 50px;
   width: 50%;
